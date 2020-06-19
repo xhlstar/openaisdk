@@ -160,6 +160,20 @@ public class PreviewActivity extends AppCompatActivity implements View.OnClickLi
             }
         }).start();
 
+
+
+
+
+        int visibility = View.GONE;
+        captureButton.setVisibility(visibility);
+        recordButton.setVisibility(visibility);
+        soundButton.setVisibility(visibility);
+//        textInputLayout.setVisibility(visibility);
+//        start.setVisibility(visibility);
+        stop.setVisibility(visibility);
+        decodeSwitch.setVisibility(visibility);
+        smartSwitch.setVisibility(visibility);
+        mRecordFilePathText.setVisibility(visibility);
         textureView.setSurfaceTextureListener(this);
     }
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">海康视频SDK</string>
+    <string name="app_name">上海交警</string>
     <string name="please_input_preview_uri">请输入您需要播放的实时预览URL</string>
     <string name="please_input_playback_uri">请输入您需要播放的录像回放URL</string>
     <string name="please_input_voicetalk_uri">请输入您需要对讲的URL</string>

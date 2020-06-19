@@ -64,7 +64,7 @@
             android:id="@+id/text_input_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/frame_layout"
+            android:layout_below="@id/start"
             android:layout_marginTop="10dp">
 
             <android.support.design.widget.TextInputEditText
@@ -80,7 +80,7 @@
             android:id="@+id/start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text_input_layout"
+            android:layout_below="@id/frame_layout"
             android:text="@string/start_preview" />
 
         <Button
@@ -95,14 +95,14 @@
             android:id="@+id/capture_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/start"
+            android:layout_below="@id/text_input_layout"
             android:text="@string/capture" />
 
         <Button
             android:id="@+id/record_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/start"
+            android:layout_below="@id/text_input_layout"
             android:layout_toRightOf="@id/capture_button"
             android:text="@string/start_record" />
 
@@ -110,7 +110,7 @@
             android:id="@+id/sound_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/start"
+            android:layout_below="@id/text_input_layout"
             android:layout_toRightOf="@id/record_button"
             android:text="@string/sound_open" />
 
